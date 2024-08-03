@@ -1,0 +1,32 @@
+.button1{
+    padding: 15px 30px 15px 30px;
+    border: 2px solid var(--White);
+    background-color: var(--White);
+    transition: 1s;
+    animation: button 2s linear infinite alternate;
+    
+}
+.button1:hover{
+    
+    background-color:transparent;
+    color: var(--red);
+    border: 2px solid var(--White);
+
+}
+.button1 a{
+    text-decoration: none;
+    color: var(--Black);
+    font-size: 1.5em;
+    font-weight: 400;
+}
+.button1 a:hover{
+    color: var(--red);
+}
+@keyframes button{
+    0%{
+      transform: translateY(0px);
+    }
+    100%{
+      transform: translateY(-10px);
+    }
+}

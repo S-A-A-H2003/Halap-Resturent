@@ -1,0 +1,36 @@
+.WhoWe{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../../Asset/Img/abstract-geometric-background-shapes-texture.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;
+}
+.WhoWe h2{
+    font-size: 4em;
+    color: var(--White);
+    font-weight: 600;
+    display: flex;
+   justify-content: center;
+
+}
+
+.WhoWe p{
+    width: 600px;
+    color: var(--White);
+    font-size: 1em;
+   font-weight: 600;
+   word-spacing: 1px;
+   text-align: end;
+   
+}
+.WhoWe ul li{
+   width: 600px;
+    color: var(--White);
+   font-size: 1em;
+   font-weight: 600;
+   word-spacing: 1px;
+  text-align: end;
+  list-style: none;
+}

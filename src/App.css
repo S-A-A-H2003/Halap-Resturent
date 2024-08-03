@@ -1,0 +1,12 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Amiri', sans-serif;
+}
+:root{
+    --White:#ffffff;
+    --Black:#000000; 
+    --red:red;
+}

@@ -1,0 +1,21 @@
+.food{
+    text-align: center;
+}
+.food img{
+    width: 600px;
+    height: 600px;
+   
+}
+.food h3{
+    font-size: 1.5em;
+    font-weight: 400;
+    color: var(--White);  
+}
+.food h4{
+    font-size: 1.5em;
+    font-weight: 400;
+    color: var(--White);  
+}
+
+
+

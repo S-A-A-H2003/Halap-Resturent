@@ -1,0 +1,28 @@
+.swiper1 .swiper{
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  animation: Swiper 2s linear infinite alternate;
+  
+}
+.swiper1 .swiper-slide{
+   width: 450px;
+   height: 450px;
+   border-radius: 50%;
+}
+@keyframes Swiper{
+  0%{
+    transform: translateY(-15px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}
+.swiper1 .swiper-slide img{
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+}
+
+ 
+ 
