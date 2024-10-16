@@ -9,7 +9,7 @@ export default class SectionHome extends Component {
       <section id="Home" mypage="Home" className="Home">
         <Header/>
        <div className="container">
-         <div><Swiper/></div> 
+         <div className="Swiper"><Swiper/></div> 
         <div className="description">
           <h1> <span>مطعم </span> حلب </h1>
           <h2>أهلا وسهلا بزبائننا الكرام</h2>

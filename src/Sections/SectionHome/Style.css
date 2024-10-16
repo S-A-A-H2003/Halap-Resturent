@@ -1,7 +1,9 @@
 .Home{
     width: 100%;
     min-height: 100vh;
-    background-image: url(../../Asset/Img/abstract-geometric-background-shapes-texture.jpg);
+    background-color:var(--Black);
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .container{
     width: 100%;
@@ -13,16 +15,19 @@
 
     
 }
+.Swiper{
+    margin-top: 20px;
+}
+.description{
+    margin-top: 30px;
+    padding: 10px;
+}
 .description h1{
     display: flex;
     flex-direction: row-reverse;
     color: var(--White);
     font-size: 4em;
-    font-weight: 800;
-   
-   
-    
-    
+    font-weight: 800;  
 }
 .description h1 span{
     color:red;

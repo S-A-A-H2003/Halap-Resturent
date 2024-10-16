@@ -1,33 +1,36 @@
 .Menu{
     width: 100%;
-    min-height: 100vh;
-    background-image: url(../../Asset/Img/abstract-geometric-background-shapes-texture.jpg);
+    min-height: 80vh;
+    background-color:var(--Black);
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .Menu h2{
     font-size: 4em;
     color: var(--White);
     font-weight: 600;
     display: flex;
-   justify-content: center;
+    justify-content: center;
+    margin-bottom: 15px;
 
 }
 .contienar{
+    width: 1300px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-
+    overflow: scroll;
+    scrollbar-width: none;
 }
-.Menu .contienar .swiper{
-    width: 100%;
-    min-height: auto;
+@media only screen and (max-width: 1400px) { 
+    .contienar{
+        width: 670px;
+    }
     
 }
-@media screen and(max-width:900) {
-    .Menu .contienar .swiper{
-        width: 400px;
-        height: 400px;
-       
-    } 
+@media only screen and (max-width: 650px) { 
+    .contienar{
+        width: 335px;
+    }
     
 }
-

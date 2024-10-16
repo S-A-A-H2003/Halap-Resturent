@@ -23,6 +23,22 @@
   height: 450px;
   border-radius: 50%;
 }
+@media only screen and (max-width: 900px) { 
+  .swiper1 .swiper{
+    width: 350px;
+    height: 350px;
+    
+  }
+  .swiper1 .swiper-slide{
+     width: 350px;
+     height: 350px;
+  }
+  .swiper1 .swiper-slide img{
+    width: 350px;
+    height: 350px;
+  }
+  
+}
 
  
  

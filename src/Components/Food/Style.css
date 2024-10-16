@@ -2,8 +2,9 @@
     text-align: center;
 }
 .food img{
-    width: 600px;
-    height: 600px;
+    width: 300px;
+    height: 300px;
+    margin-left: 30px;
    
 }
 .food h3{
